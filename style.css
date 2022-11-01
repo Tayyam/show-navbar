@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+}
+
+.sidebar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 300px; /* change  js*/
+    /* border: 2px red solid; */
+    height: 100%;
+    background-color: #111;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1;
+    display: none;
+
+}
+
+.sidebar a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display:block;
+    font-size: 25px;
+    transition: 0.3s;
+    /* border: 1px #818181 solid; */
+
+}
+
+.hide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* border: 1px red solid; */
+}
